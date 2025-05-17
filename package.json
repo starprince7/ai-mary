@@ -1,0 +1,21 @@
+{
+  "name": "ai-mary",
+  "version": "1.0.0",
+  "description": "Voice AI Assistant with Twilio and OpenAI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "ws": "^8.15.1",
+    "dotenv": "^16.3.1",
+    "@fastify/websocket": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
